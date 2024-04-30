@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T13:32:05 IST" name="Suite" finished-at="2024-03-28T13:38:21 IST" duration-ms="376173">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T13:32:05 IST" name="ChromeTest" finished-at="2024-03-28T13:35:11 IST" duration-ms="185466">
+      <class name="TestCases.TC001_beCognizant">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC001_beCognizant@3cd3e762]" started-at="2024-03-28T13:32:05 IST" name="setUp" finished-at="2024-03-28T13:32:42 IST" duration-ms="36240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userVerification()[pri:1, instance:TestCases.TC001_beCognizant@3cd3e762]" started-at="2024-03-28T13:32:42 IST" name="userVerification" finished-at="2024-03-28T13:33:24 IST" duration-ms="42659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userVerification -->
+        <test-method signature="oneCognizantFunctions(java.lang.String,java.lang.String)[pri:2, instance:TestCases.TC001_beCognizant@3cd3e762]" started-at="2024-03-28T13:33:24 IST" name="oneCognizantFunctions" finished-at="2024-03-28T13:33:43 IST" duration-ms="18418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timesheet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizantFunctions -->
+        <test-method signature="timeSheetNavigation()[pri:3, instance:TestCases.TC001_beCognizant@3cd3e762]" started-at="2024-03-28T13:33:43 IST" name="timeSheetNavigation" finished-at="2024-03-28T13:35:09 IST" duration-ms="86775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_beCognizant@3cd3e762]" started-at="2024-03-28T13:35:09 IST" name="tearDown" finished-at="2024-03-28T13:35:11 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC001_beCognizant -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-03-28T13:35:15 IST" name="EdgeTest" finished-at="2024-03-28T13:38:21 IST" duration-ms="186170">
+      <class name="TestCases.TC001_beCognizant">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC001_beCognizant@6200f9cb]" started-at="2024-03-28T13:35:15 IST" name="setUp" finished-at="2024-03-28T13:35:57 IST" duration-ms="41936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userVerification()[pri:1, instance:TestCases.TC001_beCognizant@6200f9cb]" started-at="2024-03-28T13:35:57 IST" name="userVerification" finished-at="2024-03-28T13:36:38 IST" duration-ms="41215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userVerification -->
+        <test-method signature="oneCognizantFunctions(java.lang.String,java.lang.String)[pri:2, instance:TestCases.TC001_beCognizant@6200f9cb]" started-at="2024-03-28T13:36:38 IST" name="oneCognizantFunctions" finished-at="2024-03-28T13:36:55 IST" duration-ms="16460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Timesheet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCognizantFunctions -->
+        <test-method signature="timeSheetNavigation()[pri:3, instance:TestCases.TC001_beCognizant@6200f9cb]" started-at="2024-03-28T13:36:55 IST" name="timeSheetNavigation" finished-at="2024-03-28T13:38:20 IST" duration-ms="85432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_beCognizant@6200f9cb]" started-at="2024-03-28T13:38:20 IST" name="tearDown" finished-at="2024-03-28T13:38:21 IST" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC001_beCognizant -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
